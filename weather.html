@@ -36,7 +36,7 @@
     const API_KEY = '8c0233070518e3befa4ab4754e7d3cc6';
 
     // 添加错误处理的getWeather函数
-    async function getWeather(city = 'Shashi,CN') {
+    async function getWeather(city = '沙市,CN') {
     try {
         const response = await fetch(
             `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric&lang=zh_cn`
